@@ -21,7 +21,7 @@ function goToRoute() {
 <template>
   <div class="about">
     <h1>QUERY PAGE</h1>
-    <h1 class="green">Param: {{ query }}</h1>
+    <h1 class="green">Param: {{ queryParam }}</h1>
     <input type="text" name="" id="" v-model="queryParam" />
     <button @click="goToRoute">Go</button>
   </div>
