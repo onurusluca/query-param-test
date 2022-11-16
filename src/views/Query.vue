@@ -7,8 +7,10 @@ const query = computed(() => {
 </script>
 
 <template>
-  <main>
-    <h1>Vue Router Query Params Test</h1>
+  <div class="about">
+    <h1>QUERY PAGE</h1>
     <h1 class="green">Param: {{ query }}</h1>
-  </main>
+  </div>
 </template>
+
+<style></style>
