@@ -10,6 +10,7 @@ const query = computed(() => {
   <div class="about">
     <h1>QUERY PAGE</h1>
     <h1 class="green">Param: {{ query }}</h1>
+    <input type="text" name="" id="" v-model="query" />
   </div>
 </template>
 
